@@ -1,0 +1,98 @@
+.course-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start of the flex container */
+    height: calc(100%);
+    padding: 40px;
+    background-color: #E3F2FD;
+    background-size: cover;
+    background-position: center;
+}
+
+.course-card {
+    flex: 1 0 calc(25% - 40px); /* Set each card to occupy 25% of the container width (minus margin) */
+    background-color: #CAE5FA;
+    padding: 50px;
+    border: 1px solid  #a5b9c9;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: monospace;
+    margin: 20px; /* Adjust margin between cards */
+    max-width: 200px; /* Limit maximum width of each card */
+    height: 300px;
+}
+
+.student-card{
+    flex: 1 0 calc(25% - 40px); /* Set each card to occupy 25% of the container width (minus margin) */
+    background-color: #CAE5FA;
+    padding: 50px;
+    border: 1px solid  #a5b9c9;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: monospace;
+    margin: 20px; /* Adjust margin between cards */
+    max-width: 250px; /* Limit maximum width of each card */
+    height: 550px;
+}
+
+.student-list{
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start of the flex container */
+    height: calc(100%);
+    padding: 30px;
+    background-color: #E3F2FD;
+    background-size: cover;
+    background-position: center;
+}
+
+.details h3, .details p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 100%; 
+    padding: 5px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #458DC0;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0052a9;
+}
+
+.edit-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.delbtn {
+    width: 100%; 
+    padding: 5px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d31e1e;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delbtn:hover {
+    background-color: #700000;
+}
+
+.edit-link {
+    text-decoration: none;
+    color: #ffffff;
+}

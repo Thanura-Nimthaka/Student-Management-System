@@ -1,0 +1,74 @@
+/* Addstudent.css */
+
+.stu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+    background-color: #E3F2FD;
+    background-size: cover;
+    background-position: center;
+}
+.card-body {
+    background-color: #CAE5FA;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: monospace;
+    width: 900px;
+}
+
+.card-body h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #333333;
+    font-family: fantasy;
+}
+
+.two-column-form {
+    display: flex;
+}
+
+.left-column,
+.right-column {
+    flex: 1;
+    padding: 0 30px;
+}
+
+.button{
+
+    width: 30%;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 00px;
+    border: none;
+    border-radius: 5px;
+    background-color: #458DC0;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover{
+    background-color: #0052a9;
+  }
+
+  .sub{
+
+    width: 106%;
+    padding: 5px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    color: #000000;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .sub:hover{
+    background-color: #4389a9;
+  }
